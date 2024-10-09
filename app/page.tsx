@@ -5,11 +5,13 @@ import FeatureRight from '@/components/home-page/feature-right';
 import FeatureSet from '@/components/home-page/feature-set';
 import Footer from '@/components/home-page/footer';
 import Hero from '@/components/home-page/hero';
+import Header from '@/components/home-page/header';
 const page = () => {
   return (
     <Main>
       <Section>
         <Container>
+          <Header />
           <Hero />
           <FeatureLeft />
           <FeatureRight />

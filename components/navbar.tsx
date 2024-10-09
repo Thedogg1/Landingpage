@@ -72,7 +72,7 @@ export function NavBar() {
                   </Button>
                 </Link>
               </DialogClose>
-              {/* <ModeToggle /> */}
+              <ModeToggle />
             </div>
           </SheetContent>
         </Dialog>

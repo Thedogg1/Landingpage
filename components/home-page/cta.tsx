@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 
 // Custom components
 import { Section, Container } from '@/components/craft';
+import Calendly from './calendly';
 
 const CTA = () => {
   return (
@@ -22,12 +23,7 @@ const CTA = () => {
           </Balancer>
         </h3>
         <div className='not-prose mx-auto flex items-center gap-2'>
-          <Button className='w-fit' asChild>
-            <Link href='#'>Get Started</Link>
-          </Button>
-          <Button className='w-fit' variant='link' asChild>
-            <Link href='#'>Learn More {'->'}</Link>
-          </Button>
+          <Calendly />
         </div>
       </Container>
     </Section>
